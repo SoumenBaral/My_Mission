@@ -1,0 +1,53 @@
+body {
+    font-family: 'Bitter', serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: auto;
+}
+
+.side-line {
+
+    border-left: 5px solid;
+    border-image: linear-gradient(red, cyan);
+    border-image-slice: 1;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.orange-color {
+    color: orange;
+}
+
+.Top-border {
+    display: flex;
+
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 70%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: orange;
+    background-image: linear-gradient(orange, tomato);
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 10px 40px;
+
+}
+
+a {
+    padding: 20px;
+}
+
+.text-aline {
+    text-align: center;
+}
