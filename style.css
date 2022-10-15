@@ -25,6 +25,12 @@ h1 {
 
 }
 
+.psize {
+    font-size: small;
+    text-align: left;
+
+}
+
 .half-width {
     width: 50%;
     padding-left: 5%;
@@ -32,6 +38,15 @@ h1 {
 
 .half-width img {
     width: 70%;
+}
+
+.half-width2 {
+    width: 40%;
+    padding-left: 5%;
+}
+
+.half-width2 img {
+    width: 25%;
 }
 
 .link-button {
@@ -50,4 +65,64 @@ a {
 
 .text-aline {
     text-align: center;
+}
+
+.flex-container div {
+    width: 400px;
+    height: 300px;
+    margin: 30px;
+    text-align: center;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+h2 {
+    color: blue;
+}
+
+.boxshadow {
+    width: 400px;
+    height: 300px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+
+}
+
+.bg-img {
+    background-image: url(images/pictures/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.bg-img2 {
+    background-image: url(images/shapes/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+section {
+    padding-bottom: 100px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(19, 141, 141);
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+
+}
+
+.cl2022 {
+    color: brown;
 }
